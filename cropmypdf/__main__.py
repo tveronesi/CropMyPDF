@@ -1,4 +1,6 @@
-from .pdf_crop import PDFCropTool
+import sys
+
+from .cli import main
 
 if __name__ == "__main__":
-    PDFCropTool()
+    sys.exit(main())

@@ -1,7 +1,11 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "cropmypdf"
-version = "0.1.0"
-description = "Uno strumento per ritagliare PDF tramite interfaccia grafica."
+version = "0.2.0"
+description = "Crop PDF margins for e-readers: GUI, CLI and an embedded AI agent skill."
 authors = [
     { name = "A Bianchi" }
 ]
@@ -14,4 +18,10 @@ dependencies = [
 ]
 
 [project.scripts]
-cropmypdf = "cropmypdf.pdf_crop:main"
+cropmypdf = "cropmypdf.cli:main"
+
+[tool.setuptools]
+packages = ["cropmypdf"]
+
+[tool.setuptools.package-data]
+cropmypdf = ["skill/*.md"]
