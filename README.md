@@ -1,32 +1,68 @@
 # CropMyPDF
 
-**CropMyPDF** is a simple graphical tool that helps you remove unnecessary margins from PDF files, making them easier to read on devices like **Kindle**, **Kobo**, **reMarkable** and other e-ink readers.
+> **From cluttered PDF to clean, e-reader-friendly reading in seconds.**
 
-> Turn cluttered PDFs into clean, e-reader-friendly pages in a few clicks.
+**CropMyPDF** is a lightweight graphical tool that removes unnecessary margins from PDF files so they are far more comfortable to read on **Kindle**, **Kobo**, **reMarkable**, and other e-ink devices.
 
----
-
-## Why CropMyPDF?
-
-PDFs often waste precious screen space with large white margins, headers, and footers. On e-readers and small screens this means:
-
-- more zooming
-- more panning
-- slower reading
-- less comfortable reading experience
-
-**CropMyPDF solves this by letting you visually crop the page area you want to keep and export a cleaner version immediately.**
+[⭐ Why it matters](#-why-cropmypdf) · [✨ Features](#-features) · [👀 Before / After](#-before--after) · [🚀 How to use](#-how-to-use) · [📣 Call to action](#-call-to-action)
 
 ---
 
-## Features
+## Why CropMyPDF
 
-- **Visual preview** of the page before cropping
+PDFs are often designed for paper, not for e-readers. That usually means:
+
+- huge white margins
+- tiny content area on small screens
+- constant zooming and panning
+- slower, less pleasant reading
+
+**CropMyPDF fixes that workflow in a simple, visual way.**
+
+Instead of living with wasted space, you crop the page to the content area you actually want to read.
+
+---
+
+## Why this is worth using
+
+CropMyPDF is especially useful when you want to:
+
+- read **papers, manuals, guides, and reports** on a Kindle or Kobo
+- make documents more comfortable on a **reMarkable** or other e-ink tablet
+- reduce distractions caused by empty margins
+- turn dense PDFs into a more focused reading experience
+- avoid editing PDFs manually with complex software
+
+It is built for a very specific job: **make PDFs feel made for reading, not just for printing**.
+
+---
+
+## ✨ Features
+
+- **Visual preview** before cropping
 - **Mouse-based selection** to choose the exact area to keep
 - **Keeps the cover intact** by leaving the first page untouched
 - **Exports a new cropped PDF** next to the original file
-- **Fast and simple workflow** designed for non-technical users
-- **Perfect for e-ink devices** and small screens
+- **Fast, simple workflow** with minimal friction
+- **Ideal for e-ink readers** and small screens
+
+---
+
+## 👀 Before / After
+
+### Before
+A PDF with wide margins wastes most of the screen on blank space.
+
+### After
+The same PDF becomes much more readable because the content takes center stage.
+
+**Result:**
+- more text visible at once
+- less zooming
+- less scrolling
+- more comfortable reading on e-readers
+
+> **In short:** same PDF, better experience.
 
 ---
 
@@ -36,49 +72,28 @@ PDFs often waste precious screen space with large white margins, headers, and fo
 Read academic papers, manuals, comics, guides, and documents without wasting screen space on margins.
 
 ### For students and researchers
-Make lecture notes, papers, and reports more readable and easier to annotate on tablets and e-readers.
+Make lecture notes, papers, and reports easier to read and annotate.
 
 ### For professionals
-Clean up exported reports, contracts, and documentation before sharing them with clients or reading them on the go.
+Clean up exported reports, contracts, and documentation before sharing them.
 
 ### For anyone tired of zooming
 Reduce the need to constantly pinch, pan, and re-center PDF pages on mobile devices.
 
 ---
 
-## What makes it appealing?
-
-- **Instant visual feedback** before saving
-- **One job, done well**: crop PDFs quickly and cleanly
-- **Ideal for e-ink workflows** where every pixel matters
-- **Lightweight Python app** with a straightforward setup
-
----
-
-## Example scenarios
-
-- A 300-page research paper with wide margins becomes much more comfortable to read on a Kindle.
-- A reMarkable user can focus on the content instead of blank space.
-- A scanned handbook can be trimmed to maximize readability on a Kobo.
-- A PDF manual can be made more usable on a phone during travel.
-
----
-
-## Installation
+## 🚀 How to use
 
 ```bash
 git clone https://github.com/abianchi91/CropMyPDF.git
 cd CropMyPDF
 pip install -r requirements.txt
+python -m cropmypdf
 ```
 
-## Usage
+You can also run it directly:
 
 ```bash
-# run as module
-python -m cropmypdf
-
-# or run directly
 python cropmypdf/pdf_crop.py
 ```
 
@@ -94,12 +109,26 @@ python cropmypdf/pdf_crop.py
 
 ---
 
-## Suggested tagline ideas
+## 🔥 Who is this for?
 
-- **CropMyPDF — Read PDFs the way they should have been made for e-readers**
-- **From cluttered PDF to clean reading experience**
-- **Trim margins. Gain space. Read better.**
-- **The fast way to make PDFs Kindle-ready**
+If you read PDFs on a device with a small screen, CropMyPDF is for you.
+
+It is a great fit for:
+
+- e-reader users
+- researchers
+- students
+- engineers
+- consultants
+- anyone who reads a lot of PDFs on the go
+
+---
+
+## 📣 Call to action
+
+If you like cleaner reading, faster navigation, and a better PDF experience on e-ink devices, **CropMyPDF is the simplest way to get there**.
+
+**Try it, crop a PDF, and read the difference immediately.**
 
 ---
 
